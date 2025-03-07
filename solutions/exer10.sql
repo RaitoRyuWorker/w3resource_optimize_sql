@@ -1,0 +1,2 @@
+-- Write a MySQL query that selects only indexed columns from the Orders table to leverage a covering index for improved query performance.
+SELECT CustomerID, OrderDate FROM Orders WHERE CustomerID = 'ALFKI';
